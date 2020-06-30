@@ -268,32 +268,32 @@
 
 Git e Github
 
-- Realizando o primeiro commit
-- Exercício: Seu primeiro commit
-- Resolução: Seu primeiro commit
-- Visualizando os logs
-- Visualizando as diferenças
-- Desfazendo alterações
-- Exercício: Observando as diferenças e desfazendo alterações
-- Resolução: Observando as diferenças e desfazendo alterações
-- O que são Branchs
-- Como utilizar branchs
-- O que é merge e como utilizar
+- Realizando o primeiro commit X
+- Exercício: Seu primeiro commit X
+- Resolução: Seu primeiro commit X
+- Visualizando os logs X
+- Visualizando as diferenças X
+- Desfazendo alterações X
+- Exercício: Observando as diferenças e desfazendo alterações X
+- Resolução: Observando as diferenças e desfazendo alterações X
+- O que são Branchs X
+- Como utilizar branchs X
+- O que é merge e como utilizar X
 
 ##Dia 6
 
 ###Git e Github
 
-- Exercício: Usando o merge
-- Resolução: Usando o merge
-- Conhecendo um repositório no GITHUB
-- Clonando um projeto do Github
-- Criando um novo repositório no GITHUB
-- Baixando as atualizações de um projeto
-- Ignorando Arquivos
-- Exercício: Crie seu primeiro repositório online
-- Resolução: Crie seu primeiro repositório online
-- Conectando ao Github com uma chave ssh
+- Exercício: Usando o merge X
+- Resolução: Usando o merge X
+- Conhecendo um repositório no GITHUB X
+- Clonando um projeto do Github X
+- Criando um novo repositório no GITHUB X
+- Baixando as atualizações de um projeto X
+- Ignorando Arquivos X
+- Exercício: Crie seu primeiro repositório online X
+- Resolução: Crie seu primeiro repositório online X
+- Conectando ao Github com uma chave ssh X --- semana 3 dia 2
 
 #Semana 5 - Javascript Moderno (ES6+)
 
