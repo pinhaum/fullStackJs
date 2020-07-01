@@ -1,0 +1,19 @@
+{
+  "name": "npm_class",
+  "version": "1.0.0",
+  "description": "test 4learnig NPM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NPM",
+    "class",
+    "study"
+  ],
+  "author": "Gabriel de Camargo Ramos Eurich",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.27.0"
+  }
+}

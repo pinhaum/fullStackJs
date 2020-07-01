@@ -301,34 +301,34 @@ Git e Github
 
 ###Javascript Moderno – Evolução e compatibilidade
 
-- Versões do ECMAScript
-- Interpolação de String
-- Desestruturação de Objetos e Arrays
-- Operador Spread
-- Rest Param
-- O que é NodeJS e como Instalar
-- Formato JSON
-- Npm e Yarn (instalando o npm)
-- Npm init e instalação de pacotes
-- Transpilação com Babel
-- babel.config.js e .babelrc
-- NPX e NPM Scripts
+- Versões do ECMAScript X
+- Interpolação de String X
+- Desestruturação de Objetos e Arrays X
+- Operador Spread X
+- Rest Param X
+- O que é NodeJS e como Instalar X
+- Formato JSON X
+- Npm e Yarn (instalando o npm) X
+- Npm init e instalação de pacotes X
+- Transpilação com Babel X
+- babel.config.js e .babelrc X
+- NPX e NPM Scripts X
 
 ##Dia 2
 
 ###Javascript Moderno – Evolução e compatibilidade
 
-- Desvendando o Webpack – Parte 01
-- Desvendando o Webpack – Parte 02
-- Desvendando o Webpack – Parte 03
+- Desvendando o Webpack – Parte 01 X
+- Desvendando o Webpack – Parte 02 X
+- Desvendando o Webpack – Parte 03 X
 
 ###Javascript Moderno – Modules
 
-- Introdução aos Módulos
-- Exportando um modulo
-- Usando um modulo
-- Exercício 01 – Módulos CommonJS
-- Exercício 01 – Resolução
+- Introdução aos Módulos X
+- Exportando um modulo X
+- Usando um modulo X
+- Exercício 01 – Módulos CommonJS X
+- Exercício 01 – Resolução X --- semana 3 dia 3
 - Export default
 - Import default
 
