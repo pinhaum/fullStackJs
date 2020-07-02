@@ -329,17 +329,17 @@ Git e Github
 - Usando um modulo X
 - Exercício 01 – Módulos CommonJS X
 - Exercício 01 – Resolução X --- semana 3 dia 3
-- Export default
-- Import default
+- Export default X
+- Import default X
 
 ##Dia 3
 
 ###Javascript Moderno – Modules
 
-- Export nomeados
-- Import nomeados
-- Exercício 02 – Módulos do ES6
-- Exercício 02 – Resolução
+- Export nomeados X
+- Import nomeados X
+- Exercício 02 – Módulos do ES6 X
+- Exercício 02 – Resolução X
 - Renomeando Exports e Imports
 - Renomeando um Import
 
