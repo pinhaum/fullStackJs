@@ -340,68 +340,59 @@ Git e Github
 - Import nomeados X
 - Exercício 02 – Módulos do ES6 X
 - Exercício 02 – Resolução X
-- Renomeando Exports e Imports
-- Renomeando um Import
+- Renomeando Exports e Imports X
+- Renomeando um Import X --- semana 3 dia 4
 
 ###Javascript Moderno – ‘Assincronicidade’ e Promises
 
-- SetInterval e SetTimeout
-- Síncrono e Assíncrono
-- O que são Promises
-- Utilizando o Then
-- Utilizando o Catch
-- Exercício 03 – Utilizando Promises
-- Exercício 03 – Resolução
+- SetInterval e SetTimeout X
+- Síncrono e Assíncrono X
+- O que são Promises X
+- Utilizando o Then X
+- Utilizando o Catch X
+- Exercício 03 – Utilizando Promises X
+- Exercício 03 – Resolução X
 
 ##Dia 4
 
 ###Javascript Moderno – ‘Assincronicidade’ e Promises
 
-- Promises encadeadas
-- Executando várias Promises
-- Exercício 04 – Avançando Promises
-- Exercício 04 – Resolução
+- Promises encadeadas X-
+- Executando várias Promises X-
+- Exercício 04 – Avançando Promises X --- semana 4 dia 2-
+- Exercício 04 – Resolução X-
 
 ###Javascript Moderno – Async Await
 
-- Preparando o ambiente
-- O que são Async Functions
-- Capturando errros das Async Functions
-- O que é Await
-- Executando várias Promises com Await
-- Exercício 05 – Utilizando Async Functions
-- Exercício 05 – Resolução
+- Preparando o ambiente X-
+- O que são Async Functions X-
+- Capturando errros das Async Functions X-
+- O que é Await X-
+- Executando várias Promises com Await X-
+- Exercício 05 – Utilizando Async Functions X-
+- Exercício 05 – Resolução X-
 
 ##Dia 5
 
-###Javascript Moderno – ‘Assincronicidade’ e Promises
+###Javascript Moderno – Requests
 
-- Promises encadeadas
-- Executando várias Promises
-- Exercício 04 – Avançando Promises
-- Exercício 04 – Resolução
-
-###Javascript Moderno – Async Await
-
-- Preparando o ambiente
-- O que são Async Functions
-- Capturando errros das Async Functions
-- O que é Await
-- Executando várias Promises com Await
-- Exercício 05 – Utilizando Async Functions
-- Exercício 05 – Resolução
+- O que é uma API? X
+- Requisições Get X
+- Exibindo os Registros no Browser X
+- Exercício 06 - Utilizando o Fetch X
+- Exercício 06 - Resolução X
 
 #Semana 6 - Dominando o React
 
 ##Dia 1
 
-- Introdução ao Módulo
-- O que é React
-- O que são Components e porque eles são importantes
-- O que é Jsx
-- Hello World
-- Como o react atualiza as views
-- Create React App – gerando nosso primeiro projeto – SCREENCAST
+- Introdução ao Módulo X
+- O que é React X
+- O que são Components e porque eles são importantes X
+- O que é Jsx X
+- Hello World X
+- Como o react atualiza as views X
+- Create React App – gerando nosso primeiro projeto – SCREENCAST X --- week 4 day 3
 
 ##Dia 2
 
