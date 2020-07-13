@@ -396,23 +396,23 @@ Git e Github
 
 ##Dia 2
 
-- Criando seu primeiro component
-- Exercício – Criando um component Lorem Ipsum
-- Resolução – Criando um component Lorem Ipsum
-- Agrupando components
-- Dividindo e reutilizando components
-- Conhecendo as Props
-- Exercício – Criando um component com Props
-- Resolução – Criando um component com Props
+- Criando seu primeiro component X
+- Exercício – Criando um component Lorem Ipsum X
+- Resolução – Criando um component Lorem Ipsum X
+- Agrupando components X 
+- Dividindo e reutilizando components X
+- Conhecendo as Props X
+- Exercício – Criando um component com Props X
+- Resolução – Criando um component com Props X 
 
 ##Dia 3
 
 - O que são eventos
-- Passando um evento como parâmetro para outro component
-- Renderização condicional
-- Impedindo component de renderizar até que uma condição seja atingida​​
-- Renderizando multiplos components
-- Renderizando multiplos elementos no JSX
+- Passando um evento como parâmetro para outro component X
+- Renderização condicional X
+- Impedindo component de renderizar até que uma condição seja atingida​​ X
+- Renderizando multiplos components X 
+- Renderizando multiplos elementos no JSX X --- week 5 day 1
 - O que são estados
 - Criando uma classe com estado
 - O que é o lifecycle
