@@ -422,8 +422,8 @@ Git e Github
 
 ##Dia 4
 
-- O que são Hooks
-- Refatorando nosso state com hooks
+- O que são Hooks X
+- Refatorando nosso state com hooks X
 - Refatorando nosso lifecycle com hooks
 - Exercício: Refatorando com Hooks
 - Exercício: Refatorando com Hooks
