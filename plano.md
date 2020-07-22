@@ -399,11 +399,11 @@ Git e Github
 - Criando seu primeiro component X
 - Exercício – Criando um component Lorem Ipsum X
 - Resolução – Criando um component Lorem Ipsum X
-- Agrupando components X 
+- Agrupando components X
 - Dividindo e reutilizando components X
 - Conhecendo as Props X
 - Exercício – Criando um component com Props X
-- Resolução – Criando um component com Props X 
+- Resolução – Criando um component com Props X
 
 ##Dia 3
 
@@ -411,14 +411,14 @@ Git e Github
 - Passando um evento como parâmetro para outro component X
 - Renderização condicional X
 - Impedindo component de renderizar até que uma condição seja atingida​​ X
-- Renderizando multiplos components X 
-- Renderizando multiplos elementos no JSX X --- week 5 day 1
-- O que são estados
-- Criando uma classe com estado
-- O que é o lifecycle
-- Incluindo lifecycle na nossa classe
-- Exercicio – Usando State e Lifecycle
-- Resolução – Usando State e Lifecycle
+- Renderizando múltiplos components X
+- Renderizando múltiplos elementos no JSX X --- week 5 day 1
+- O que são estados X
+- Criando uma classe com estado X
+- O que é o lifecycle X
+- Incluindo lifecycle na nossa classe X
+- Exercício – Usando State e Lifecycle X
+- Resolução – Usando State e Lifecycle X --- week 6 day 2
 
 ##Dia 4
 
@@ -486,7 +486,7 @@ Git e Github
 - Associação entre Collections
 - Operadores do MongoDB
 - Instalação do Mongoose
-- Mapemento Objeto-Documento
+- Mapeamento Objeto-Documento
 - Models e as Rotas
 - Listando dados do Model
 - Atualização e Remoção de Dados

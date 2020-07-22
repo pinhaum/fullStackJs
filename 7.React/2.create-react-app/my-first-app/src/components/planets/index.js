@@ -1,33 +1,68 @@
-import React from "react";
-import Planet from "./planet";
+import React from 'react';
+import Planet from './planet';
 
 const clickOnPlanet = (title) => {
   console.log(`um click no planeta: ${title}"`);
 };
 
-const Planets = () => {
-  return (
-    <>
-      <h3>Planet List</h3>
-      <button>Show message</button>
-      <hr />
-      <Planet
-        title="Mercúrio"
-        description="Mercúrio é o menor e mais interno planeta do Sistema Solar, orbitando o Sol a cada 87,969 dias terrestres. A sua órbita tem a maior excentricidade e o seu eixo apresenta a menor inclinação em relação ao plano da órbita dentre todos os planetas do Sistema Solar. Mercúrio completa três rotações em torno de seu eixo a cada duas órbitas."
-        img_url="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Mercury_in_color_-_Prockter07-edit1.jpg/280px-Mercury_in_color_-_Prockter07-edit1.jpg"
-        link="https://en.wikipedia.org/wiki/Mercurio"
-        clickOnPlanet={clickOnPlanet}
-        title_with_underline="true"
-      />
-      <Planet
-        title="Vênus"
-        description="Vênus é a primeira estrela que aparece no céu ao anoitecer, também é o planeta que dá nome à deusa romana da beleza e do amor"
-        img_url="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Venus-real_color.jpg/280px-Venus-real_color.jpg"
-        clickOnPlanet={clickOnPlanet}
-        gray="true"
-      />
-    </>
-  );
-};
+async function getPlanets() {
+  let response = await fetch('http://localhost:3000/api/planets.json');
+  let data = await response.json();
+  return data;
+}
+
+class Planets extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      planets: [],
+    };
+  }
+
+  componentDidMount() {
+    getPlanets().then((data) => {
+      this.setState((state) => ({
+        planets: data['planets'],
+      }));
+    });
+  }
+
+  removeLast = () => {
+    let new_planets = [...this.state.planets];
+    new_planets.pop();
+    this.setState((state) => ({
+      planets: new_planets,
+    }));
+  };
+
+  duplicateLastPlanet = () => {
+    const last_element = this.state.planets.length - 1;
+    let last_planet = this.state.planets[last_element];
+    this.setState((state) => ({
+      planets: [...this.state.planets, last_planet],
+    }));
+  };
+
+  render() {
+    return (
+      <>
+        <h3>Planet List</h3>
+        <button onClick={this.removeLast}>Remove last</button>
+        <button onClick={this.duplicateLastPlanet}>Duplicate last</button>
+        <hr />
+        {this.state.planets.map((planet, index) => (
+          <Planet
+            id={planet.id}
+            title={planet.title}
+            description={planet.description}
+            img_url={planet.img_url}
+            link={planet.link}
+            key={index}
+          />
+        ))}
+      </>
+    );
+  }
+}
 
 export default Planets;
