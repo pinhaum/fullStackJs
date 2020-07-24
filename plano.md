@@ -424,24 +424,24 @@ Git e Github
 
 - O que são Hooks X
 - Refatorando nosso state com hooks X
-- Refatorando nosso lifecycle com hooks
-- Exercício: Refatorando com Hooks
-- Exercício: Refatorando com Hooks
-- Controlled e Uncontrolled Components
-- Criando um form controlado
-- Controlando múltiplos inputs
-- Exercício: Criando um novo Form controlado
-- Resolução: Criando um novo Form controlado
+- Refatorando nosso lifecycle com hooks X --- week 6 day 3
+- Exercício: Refatorando com Hooks X
+- Exercício: Refatorando com Hooks X
+- Controlled e Uncontrolled Components X
+- Criando um form controlado X
+- Controlando múltiplos inputs X
+- Exercício: Criando um novo Form controlado X
+- Resolução: Criando um novo Form controlado X
 
 ##Dia 5
 
-- O que é um SPA e o que são rotas
-- Incluindo as rotas no nosso projeto
-- Criando uma nova tela
-- Pegando parâmetros da URL
-- Navegando entre as telas
-- Redirect e página 404
-- Conclusão e próximos conteúdos
+- O que é um SPA e o que são rotas X
+- Incluindo as rotas no nosso projeto X
+- Criando uma nova tela X
+- Pegando parâmetros da URL X
+- Navegando entre as telas X
+- Redirect e página 404 X
+- Conclusão e próximos conteúdos X --- week 6 day 5
 
 #Semana 7 - Dominando o NodeJs (ExpressJs)
 
@@ -449,12 +449,12 @@ Git e Github
 
 ###Introdução ao Backend
 
-- Introdução ao módulo
-- Entendendo o Backend
-- Executando códigos JS no Terminal
-- Entrada e Saída de Dados
-- Manipulando arquivos
-- Verbos e status HTTP
+- Introdução ao módulo X
+- Entendendo o Backend X
+- Executando códigos JS no Terminal X
+- Entrada e Saída de Dados X
+- Manipulando arquivos X
+- Verbos e status HTTP X
 - Montando um servidor HTTP com NodeJS
 - Arquitetura MVC
 

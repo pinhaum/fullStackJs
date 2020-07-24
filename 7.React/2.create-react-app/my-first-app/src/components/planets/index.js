@@ -1,17 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Planet from './planet';
-
-const clickOnPlanet = (title) => {
-  console.log(`um click no planeta: ${title}"`);
-};
-
-// componentDidMount() {
-//   getPlanets().then((data) => {
-//     setState((state) => ({
-//       planets: data['planets'],
-//     }));
-//   });
-// }
+import Form from './form';
 
 async function getPlanets() {
   let response = await fetch('http://localhost:3000/api/planets.json');
@@ -20,13 +9,17 @@ async function getPlanets() {
 }
 
 const Planets = () => {
-  const [planets, setPlanets] = useState([])
+  const [planets, setPlanets] = useState([]);
 
   useEffect(() => {
-    getPlanets().then(data => {
-      setPlanets(data['planets'])
-    })
-  }, [])
+    getPlanets().then((data) => {
+      setPlanets(data['planets']);
+    });
+  }, []);
+
+  const addPlanet = (new_planet) => {
+    setPlanets([...planets, new_planet]);
+  };
 
   const removeLast = () => {
     let new_planets = [...planets];
@@ -40,10 +33,12 @@ const Planets = () => {
     setPlanets([...planets, last_planet]);
   };
 
-
   return (
     <>
       <h3>Planet List</h3>
+      <hr />
+      <Form addPlanet={addPlanet} />
+      <hr />
       <button onClick={removeLast}>Remove last</button>
       <button onClick={duplicateLastPlanet}>Duplicate last</button>
       <hr />
@@ -59,7 +54,6 @@ const Planets = () => {
       ))}
     </>
   );
-
-}
+};
 
 export default Planets;
